@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+
+}
+
+
+#header {
+
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url('images/about.jpg');
+    width:100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+.login_button{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 6px 15px;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 15px;
+    border-radius:80px;
+}
+
+
+#heading{
+    position: absolute;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    top:40%;
+    left:40%;
+    font-size:x-large;
+}
+
+.sub {
+    text-align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 40px;
+    font-size: 50px;
+}
+
+
+li a:hover {
+    background-color:rgb(48, 44, 44);
+    border-radius: 50px;
+
+}
+
+.navul{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.topbar{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:12px;
+    height:32px;
+    padding-top: 5px;
+}
+
+.banner{
+    /* border:2px solid red; */
+    display: flex;
+    align-items:center;
+    justify-content:center;
+
+}
+
+.banner p{
+
+    border-bottom: 10px solid #4285F4;
+    margin-left: 80px;
+    width:56vh;
+    font-weight:700;
+    font-size: 80px;
+
+}
+
+.banner img{
+    width:90vh;
+    min-height: 80vh;
+    /* border:2px solid green; */
+}
+
+.mission{
+    display: flex;
+}
+
+.zoom:hover{
+    zoom:120%;
+}
+
+
+/* @media screen and (min-width:425px){
+    #heading{
+        top:70%;
+        left:35%;
+    }
+
+}
+
+
+@media screen and (min-width:768px){
+    #heading{
+        top:50%;
+        left:40%;
+    }
+}
+
+
+@media screen and (max-width:375px){
+    #heading{
+        top:70%;
+        left:30%;
+    }
+} */
+
+
+@media screen and (max-width:1540px){
+
+    table{
+        font-size:9px;
+    } 
+
+}
+
+@media screen and (max-width:1024px){
+
+    .login_button{
+        padding: 6px 4px;
+    }
+
+}
+
+
+@media screen and (max-width:768px){
+
+    .topbar{
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px){
+
+    .mission{
+        flex-direction:column-reverse;
+    }
+
+    .banner p{
+        font-size: 40px;
+        width:28vh;
+    }
+
+}
+
+
+@media screen and (max-width:320px){
+
+    table{
+        font-size:6px;
+    }
+
+    .banner p{
+        font-size: 21px;
+        width:19vh;
+    }
+
+}
+
+
+@media screen and (max-width:375px){
+
+    table{
+        font-size:8px;
+    }
+
+}
